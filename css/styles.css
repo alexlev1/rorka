@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* Menu */
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px red dashed;
+  color: red;
+}
+
+.nav-menu-point {
+  display: inline;
+  list-style-type: none;
+}
+
+/* Header */
+
+.big-title {
+  padding-top: 135px;
+  font-size: 50px;
+}
+
+.header-text {
+  font-size:30px;
+}
+
+/* Main Body */
+
+.medium-title {
+  text-align: center;
+  font-size: 36px;
+}
+
+
+/* About us */
+
+.features {
+  width: 100%;
+}
+
+/* Projects */
+
+
+
+
+/* How we works */
+
+.work-steps {
+  width: 100%;
+}
+
+
+/* Contacts */
