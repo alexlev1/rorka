@@ -24,10 +24,6 @@ body {
   background-size: cover;
 }
 
-.overlay {
-  background: url('../images/overlay.png') no-repeat center;
-}
-
 .big-title {
   padding-top: 135px;
   font-size: 50px;
@@ -46,6 +42,10 @@ body {
   font-size: 36px;
 }
 
+.feature-icon,
+.step-icon {
+  width: 100px;
+}
 
 /* About us */
 
@@ -55,15 +55,30 @@ body {
 
 /* Projects */
 
+.finfine {
+  background: url('../images/finfine-background.jpg') no-repeat center;
+  background-size: cover;
+}
 
-
+.project-text {
+  color: white;
+}
 
 /* How we works */
+
+.how-we-works {
+  background: url('../images/how-we-works.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+}
 
 .work-steps {
   width: 100%;
 }
 
+.step-icon {
+  fill: #ffb600;
+}
 
 /* Contacts */
 

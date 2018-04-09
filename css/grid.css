@@ -54,7 +54,7 @@
 /* Main Body */
 
 .medium-title {
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 /* About us */
@@ -73,6 +73,10 @@
   text-align: center;
 }
 
+.feature-icon {
+  padding-top: 20px;
+}
+
 /* Projects */
 
 .projects {
@@ -80,24 +84,32 @@
   min-height: 300px;
 }
 
-.project {
-  margin-top: 20px;
+.project-box {
+  padding: 30px 50px
+}
+
+.project-text {
+  margin-bottom: 15px;
 }
 
 /* How we works */
 
 .how-we-works {
   margin: 25px 0;
-  min-height: 300px;
+  min-height: 340px;
 }
 
 .work-steps {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .work-step {
   float: left;
   text-align: center;
+}
+
+.step-icon {
+  padding-bottom: 20px;
 }
 
 /* Contacts */
@@ -120,6 +132,10 @@
 .send-mail {
   float: left;
   padding-left: 20px;
+}
+
+.mail-text {
+  margin-top: 10px;
 }
 
 .number {
