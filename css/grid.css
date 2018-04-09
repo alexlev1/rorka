@@ -1,4 +1,4 @@
-.wrapper {
+.container {
   width: 780px;
   margin: 0 auto;
 }
@@ -18,7 +18,7 @@
 /* Menu */
 
 .menu {
-  height: 60px;
+  height: 50px;
   margin: 15px 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .nav {
-  float: left;
+  float: right;
   padding-top: 10px;
   margin-left: 75px;
 }
@@ -39,7 +39,7 @@
 /* Header */
 
 .header {
-  height: 400px;
+  min-height: 400px;
   text-align: center;
 }
 
@@ -61,7 +61,11 @@
 
 .about-us {
   margin: 25px 0;
-  height: 150px;
+  min-height: 300px;
+}
+
+.features {
+  margin-top: 20px;
 }
 
 .feature {
@@ -73,14 +77,22 @@
 
 .projects {
   margin: 25px 0;
-  height: 250px;
+  min-height: 300px;
+}
+
+.project {
+  margin-top: 20px;
 }
 
 /* How we works */
 
 .how-we-works {
   margin: 25px 0;
-  height: 150px;
+  min-height: 300px;
+}
+
+.work-steps {
+  margin-top: 20px;
 }
 
 .work-step {
@@ -92,7 +104,27 @@
 
 .contacts {
   margin: 25px 0;
-  height: 250px;
+  min-height: 350px;
+}
+
+.contacts-info {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.avatar {
+  float: left;
+  width: 150px;
+}
+
+.send-mail {
+  float: left;
+  padding-left: 20px;
+}
+
+.number {
+  margin: 25px 0;
+  text-align: center;
 }
 
 /* Clearfix */

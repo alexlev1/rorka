@@ -19,13 +19,24 @@ body {
 
 /* Header */
 
+.header {
+  background: url('../images/ruby-code.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.overlay {
+  background: url('../images/overlay.png') no-repeat center;
+}
+
 .big-title {
   padding-top: 135px;
   font-size: 50px;
+  color: white;
 }
 
 .header-text {
   font-size:30px;
+  color: white;
 }
 
 /* Main Body */
@@ -55,3 +66,4 @@ body {
 
 
 /* Contacts */
+
