@@ -94,3 +94,14 @@ body {
 
 /* Contacts */
 
+.mail-icon {
+  width: 130px;
+}
+
+.call-to-action {
+  font-weight: 600;
+}
+
+.call-to-action span {
+  font-weight: 700;
+}

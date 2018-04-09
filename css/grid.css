@@ -134,22 +134,23 @@
   margin: 0 auto;
 }
 
-.avatar {
+.mail-icon {
   float: left;
   width: 150px;
 }
 
 .send-mail {
   float: left;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .mail-text {
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .number {
-  margin: 25px 0;
+  margin-top: 40px;
   text-align: center;
 }
 
