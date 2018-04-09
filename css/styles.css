@@ -56,11 +56,23 @@ body {
 /* Projects */
 
 .finfine {
-  background: url('../images/finfine-background.jpg') no-repeat center;
+  background: url('../images/finfine.jpg') no-repeat center;
   background-size: cover;
 }
 
+.project-title {
+  font-size: 30px;
+  color: white;
+}
+
 .project-text {
+  font-size: 16px;
+  color: white;
+}
+
+.project-features {
+  font-size: 14px;
+  line-height: 28px;
   color: white;
 }
 

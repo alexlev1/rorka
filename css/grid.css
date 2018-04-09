@@ -80,7 +80,8 @@
 /* Projects */
 
 .projects {
-  margin: 25px 0;
+  margin-top: 30px;
+  margin-bottom: 60px;
   min-height: 300px;
 }
 
@@ -88,8 +89,17 @@
   padding: 30px 50px
 }
 
+.about-project {
+  float: left;
+}
 .project-text {
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.project-features {
+  float: left;
+  padding-left: 65px;
 }
 
 /* How we works */

@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button-project {
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button-project:hover {
+  background-color: white;
+  color: dimgray;
+}
+
+.button-submit {
+  border: 2px solid red;
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button-submit:hover {
+  background-color: red;
+  color: white;
+}
