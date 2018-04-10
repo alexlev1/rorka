@@ -5,11 +5,22 @@ body {
 
 /* Menu */
 
+.menu {
+  opacity: 0.95;
+  background: white;
+}
+
 .nav-list a {
   text-decoration: none;
   font-size: 16px;
   border-bottom: 2px red dashed;
   color: red;
+}
+
+.nav-list a:hover {
+  border-bottom: none;
+  color: black;
+  transition: all ease .3s;
 }
 
 .nav-menu-point {
@@ -20,12 +31,12 @@ body {
 /* Header */
 
 .header {
-  background: url('../images/ruby-code.jpg') no-repeat center;
+  background: transparent;
   background-size: cover;
 }
 
+
 .big-title {
-  padding-top: 135px;
   font-size: 50px;
   color: white;
 }
@@ -38,7 +49,6 @@ body {
 /* Main Body */
 
 .medium-title {
-  text-align: center;
   font-size: 36px;
 }
 
@@ -79,7 +89,8 @@ body {
 /* How we works */
 
 .how-we-works {
-  background: url('../images/how-we-works.jpg') no-repeat center;
+  min-height: 400px;
+  background: transparent;
   background-size: cover;
   color: white;
 }
