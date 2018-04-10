@@ -4,6 +4,20 @@
   border-radius: 4px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all ease .3s;
+  cursor: pointer;
+}
+
+.button-order {
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button-order:hover {
+  background-color: white;
+  color: dimgray;
 }
 
 .button-project {

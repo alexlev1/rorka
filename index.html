@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>RoRka - разработка RoR приложений под ключ</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i&amp;subset=cyrillic,cyrillic-ext"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
 </head>
 <body>
 <div class="menu">
@@ -25,10 +26,11 @@
     </div>
   </div>
 </div>
-<div class="header">
+<div class="header" data-parallax="scroll" data-image-src="images/ruby-code.jpg">
   <div class="container">
     <h1 class="big-title">Разработка веб-приложений</h1>
     <p class="header-text">на Ruby on Rails под ключ</p>
+    <a href="#" class="button button-order">Заказать!</a>
   </div>
 </div>
 <div class="about-us" id="about-us">
@@ -58,7 +60,7 @@
         <div class="about-project">
           <h3 class="project-title">FinFine</h3>
           <p class="project-text">Онлайн помощник в достижении<br>ваших финансовый целей!</p>
-          <a href="https://finfine.ru" class="button button-project">Перейти на сайт</a>
+          <a href="https://finfine.ru" class="button button-project" target="_blank">Перейти на сайт</a>
         </div>
         <div class="project-features">
           <ul>
@@ -71,7 +73,7 @@
     </div>
   </div>
 </div>
-<div class="how-we-works" id="how-we-works">
+<div class="how-we-works" id="how-we-works" data-parallax="scroll" data-image-src="images/how-we-works.jpg">
   <div class="container">
     <h2 class="medium-title">Как мы работаем?</h2>
     <div class="work-steps clear">
