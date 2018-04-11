@@ -1,5 +1,5 @@
 .container {
-  width: 780px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
@@ -22,11 +22,12 @@
   padding: 15px 0;
   width: 100%;
   top: 0;
-  height: 50px;
+  min-height: 50px;
 }
 
 .logo {
   float: left;
+  padding-left: 20px;
 }
 
 .nav {
@@ -70,6 +71,7 @@
 
 .features {
   margin-top: 20px;
+  width: 100%;
 }
 
 .feature {
@@ -140,7 +142,6 @@
 
 .mail-icon {
   float: left;
-  width: 150px;
 }
 
 .send-mail {
@@ -164,4 +165,55 @@
   display: table;
   clear: both;
   content: " ";
+}
+
+@media (max-width: 790px) {
+  .about-project, .project-features {
+    float: none;
+    width: auto;
+  }
+
+  .project-features {
+    padding: 20px 0;
+  }
+
+  .contacts-info {
+    text-align: center;
+  }
+
+  .mail-icon, .send-mail {
+    float: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .col-33, .col-40, .col-60 {
+    float: none;
+    width: auto;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .logo, .nav {
+    float: none;
+  }
+
+  .button-order {
+    margin-bottom: 25px;
+  }
+
+  .feature {
+    margin-bottom: 30px;
+  }
+
+  .work-step {
+    margin-bottom: 30px;
+  }
+
+  .contacts-info {
+    text-align: center;
+  }
 }
